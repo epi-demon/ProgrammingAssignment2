@@ -27,6 +27,7 @@ list(set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
         
 ## Write a short comment describing this function
+## This function calculates the inverse of the special matrix returned by the code above. If it has already been calculated, it retrieves the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
        invs <- x$getInverse()
